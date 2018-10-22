@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.6)
+project(VisionTest)
+find_package(OpenCV REQUIRED)
+message(STATUS "OpenCV library status:")
+message(STATUS "    version: ${OpenCV_VERSION}")
+message(STATUS "    libraries: ${OpenCV_LIBS}")
+message(STATUS "    include path: ${OpenCV_INCLUDE_DIRS}")
+
+set(INC_DIR /Users/LiYisong/Desktop/Samples_LinuxSDK/include)
+set(LINK_DIR /Users/LiYisong/Desktop/Samples_LinuxSDK/lib)
+
+include_directories(${OpenCV_INCLUDE_DIRS})
+set(CMAKE_CXX_STANDARD 11)
+set(SOURCE_FILES main.cpp)
+add_executable(vision_test main.cpp)
+target_link_libraries(vision_test ${OpenCV_LIBS})

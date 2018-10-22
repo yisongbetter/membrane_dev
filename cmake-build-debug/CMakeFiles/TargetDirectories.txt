@@ -1,0 +1,3 @@
+/Users/LiYisong/CLionProjects/lsd/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/LiYisong/CLionProjects/lsd/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/LiYisong/CLionProjects/lsd/cmake-build-debug/CMakeFiles/vision_test.dir
